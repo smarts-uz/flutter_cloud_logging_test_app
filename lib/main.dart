@@ -1,6 +1,31 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:googleapis/logging/v2.dart';
+import 'package:googleapis_auth/auth_io.dart';
 
-void main() {
+late final LoggingApi logger;
+
+Future<void> logEvent(String descr) async {
+  final Map<String, String> params = {'message': descr};
+  final logEntry = LogEntry(
+    logName: 'projects/cloudloggingtestapp/logs/test-log',
+    jsonPayload: params,
+    resource: MonitoredResource(type: 'global'),
+    labels: {'isWeb': '0'},
+  );
+  final req = WriteLogEntriesRequest(entries: [logEntry]);
+  logger.entries.write(req);
+}
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final f = await rootBundle.loadString('assets/logger.json');
+  AutoRefreshingAuthClient httpClient = await clientViaServiceAccount(
+      ServiceAccountCredentials.fromJson(String.fromCharCodes(f.codeUnits)), [
+    LoggingApi.loggingWriteScope,
+  ]);
+
+  logger = LoggingApi(httpClient);
   runApp(const MyApp());
 }
 
@@ -33,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    logEvent('test log no. $_counter');
     setState(() {
       _counter++;
     });

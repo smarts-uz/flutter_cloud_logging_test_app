@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "cloudloggingtestapp",
+    "private_key_id": "ee302b85fa906f9e25cca5865d85cd2ea92a1199",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCSRMx08bu4DxY3\n0lYixY5a7U1Cs1ThMNQISrQDv/kX7NaxWLdt1/KotqGN1k2YkDRy/vHqVPgMVG5E\nChD9RmeRlG6WPkCkW6tZ5yjgryqrM7T9LGYqMV3uBJ2sbTsTaqFZ4WCPkQJzFzOg\ncVTC+PwMCfo/3bEMFN+9NHdZAq224gKjfstjF3lw8GdEDHje85GdVRoHs6spm2gc\nKKJyLamQdANxrt/zWiludNn9jSJ9R24BL5VHsEfhhktP/wqeMkS1Mud3KKLxKlGX\nARKNVXegkzlJ2Yq6l6QNpf5ISIjoeCCfEF6W2ncflKxMPEDsgE5Glme8DDBFKyQG\ndwUxgAmvAgMBAAECggEAAnWhsn22GFw4lWu2AxOrVyASYoK9dKPrjNAkwsNhnuNe\noNDLFM/Cxs97W/U0jNIv75cV3kjbeumYiRBaRMgASdRjH6egUqMv+G0IpO6NGx/d\ndTxf42m9GJl/RTz491SdrfM6Om/HyMOlHJeLQ1QIePNZ/+TsazWWpYnST+7ZmO+h\ndSL9KKqrRg6XWrHB2O+FToGpJfFPE09YKCUTpKmobQBPkYBWIoL/ndyEdvt2lEyF\nVdhOZYp+4kXH5jYvCzV1VZMNRCjz5w17Gwi8YzbErhXIjiYnA+2cxjZPTwsvqoRh\nTx98epIe6BMSw73wCSPwkFrp0rEEIukVy4ZcgqxAAQKBgQDG3D2j0yKNXX+fWvBD\n7tJppGsrghHYrVPV0fX6cwxWCc8tJA8WYi1bSUHYqfvaVSn4+3HlVmCN/ZBKElnW\npg9HIk5UOcFrdYFAf1pJgcjTW3Ibl6sqwDFFw+37ATEClt6h6ymByHylR7/1npee\nx/fl1e0AtSNxKJ0E9ZmsGrhZrwKBgQC8TAd5aeYRiml74WsQiZj4HHbJ6PPSV3pW\neU0wMBOZh2bpZVdkjLryL2O2o/Y0O9Z07/zRbhWNHAY57MivslQc7WbvamtiOdQ9\nHFWc6zkJW1KuNJJ1y8sGhHjv6g4RTlYquUrYnIOTE04/FY10XEqu/gZIdFy06Dwv\npm7DPo9QAQKBgCvIP7X6/Ud8h2WxYubCBQeHUKUinQVEnAmekXaTr+qdfESnBL9b\n3DqV9W5bdnzKdVRBIAFrNBTu976nLappo0F5Fx/KG4CqPUvS/jDi5zFJl+TlTqU5\n7V871QCHcZ/tUZT6rofJeU/2bRgJ0738ruKmZ+jY+LWoSHHYFP5kX6Q3AoGAes/3\n/AfHKF+np0YCZ9nnLMSb8dt/1Ax8XZRmdOyWjAeVZttTYeCsOjQQjFpqxezVVpYE\nxrBPXCcQJI2842Ojmu54ueUmPv3K4UTuzhdZrzGiPr9JW41dUVXr70cwf7chWmJa\nX+fNpYrs+RZcma1shLBodq92nAPw5X9fNPdD0AECgYAW32V4wfmdRdQrCXBhpGSs\nIaSOzUvwpN15i6vdDsEfFFNbSCRl23k53Rz7DYbuVMz/Tbe9xvePsjhsI0JCIIRm\ngOu+aG1xZtZGEclgq+oGBMwYxBoz1VhbTGJBJa+vSgbwHykbixBbmRgPQV/v7Nui\nOvErvZA57ODELscWCsQ5vg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "logs-writer-account@cloudloggingtestapp.iam.gserviceaccount.com",
+    "client_id": "110398611145894016847",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/logs-writer-account%40cloudloggingtestapp.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}
